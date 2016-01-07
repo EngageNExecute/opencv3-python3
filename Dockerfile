@@ -1,7 +1,7 @@
 # Pull base image with batteries
 FROM buildpack-deps:jessie
 
-MAINTAINER EngageNExecute code@engagenexecute.com
+MAINTAINER EngageNExecute <code@engagenexecute.com>
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y \
